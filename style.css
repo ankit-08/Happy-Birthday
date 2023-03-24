@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     margin: 0;
@@ -7,12 +8,9 @@ body {
 }
 
 .landing-page {
-    background: #f12711;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #f5af19, #f12711);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #f5af19, #f12711);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     height: 100vh;
     overflow: hidden;
@@ -25,11 +23,12 @@ h1 {
     font-family: "Sacramento";
     font-size: 60px;
     text-align: center;
-    text-shadow: 2px 2px #FF007F, 3px 3px #FF033E;
+    text-shadow: 2px 2px #decba4, 3px 3px #decba4;
     top: 35%;
     animation-name: fall;
     animation-duration: 6s;
     animation-timing-function: infinite;
+    
 }
 
 .sun-cont {
@@ -86,12 +85,9 @@ h1 {
 .wishes {
     display: grid;
     grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
-    background: #43C6AC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #191654, #43C6AC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #191654, #43C6AC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -123,6 +119,7 @@ h1 {
     min-width: 20rem;
     border-radius: 25px;
 
+
 }
 
 iframe {
@@ -133,10 +130,10 @@ iframe {
 }
 
 p {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     font-weight: bold;
-    color: #191654;
+    color: #d1fff0;
 }
 
 section ::-webkit-scrollbar {
