@@ -40,3 +40,4 @@ letters.forEach((letter) => {
 		}
 	});
 });
+
